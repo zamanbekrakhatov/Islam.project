@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Жобалар - QurylysMaster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">QurylysMaster</a>
+        <nav class="navbar">
+            <a href="index.html">Басты бет</a>
+            <a href="about.html">Біз туралы</a>
+            <a href="services.html">Қызметтер</a>
+            <a href="projects.html" class="active">Жобалар</a>
+            <a href="contact.html">Байланыс</a>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Біздің Жобаларымыз</h1>
+            <p>Сапа мен шеберліктің айқын дәлелі</p>
+        </section>
+
+        <section class="project-gallery">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Барлығы</button>
+                <button class="filter-btn" data-filter="residential">Жеке үйлер</button>
+                <button class="filter-btn" data-filter="commercial">Коммерциялық</button>
+                <button class="filter-btn" data-filter="renovation">Жөндеу</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-item residential">
+                    <img src="https://via.placeholder.com/400x300" alt="Жоба 1">
+                    <div class="project-info">
+                        <h3>"Тау Самалы" коттеджі</h3>
+                        <p>Алматы</p>
+                    </div>
+                </div>
+                <div class="project-item commercial">
+                    <img src="https://via.placeholder.com/400x300" alt="Жоба 2">
+                    <div class="project-info">
+                        <h3>"Orda" бизнес орталығы</h3>
+                        <p>Астана</p>
+                    </div>
+                </div>
+                <div class="project-item renovation">
+                    <img src="https://via.placeholder.com/400x300" alt="Жоба 3">
+                    <div class="project-info">
+                        <h3>Тарихи ғимаратты қайта құру</h3>
+                        <p>Шымкент</p>
+                    </div>
+                </div>
+                 <div class="project-item residential">
+                    <img src="https://via.placeholder.com/400x300" alt="Жоба 4">
+                    <div class="project-info">
+                        <h3>"Көк-Төбе" вилласы</h3>
+                        <p>Алматы</p>
+                    </div>
+                </div>
+                 <div class="project-item commercial">
+                    <img src="https://via.placeholder.com/400x300" alt="Жоба 5">
+                    <div class="project-info">
+                        <h3>"Керуен" сауда орталығы</h3>
+                        <p>Астана</p>
+                    </div>
+                </div>
+                 <div class="project-item residential">
+                    <img src="https://via.placeholder.com/400x300" alt="Жоба 6">
+                    <div class="project-info">
+                        <h3>Заманауи үй</h3>
+                        <p>Ақтау</p>
+                    </div>
+                </div>
+                <!-- Тағы басқа жобалар -->
+            </div>
+        </section>
+        
+        <!-- Modal -->
+        <div id="project-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <img id="modal-image" src="" alt="Үлкейтілген сурет">
+                <h3 id="modal-title"></h3>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>QurylysMaster</h3>
+                <p>Сапалы құрылыстың кепілі. Бізбен бірге арманыңызды жүзеге асырыңыз.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Жылдам сілтемелер</h3>
+                <ul>
+                    <li><a href="index.html">Басты бет</a></li>
+                    <li><a href="about.html">Біз туралы</a></li>
+                    <li><a href="services.html">Қызметтер</a></li>
+                    <li><a href="projects.html">Жобалар</a></li>
+                    <li><a href="contact.html">Байланыс</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Байланыс</h3>
+                <p>Email: info@qurylysmaster.kz</p>
+                <p>Телефон: +7 (777) 123-45-67</p>
+                <p>Мекен-жайы: Алматы қ., Абай к-сі, 123</p>
+            </div>
+            <div class="footer-social">
+                <h3>Әлеуметтік желілер</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Telegram</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 QurylysMaster. Барлық құқықтар қорғалған.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
