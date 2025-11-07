@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Байланыс - QurylysMaster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">QurylysMaster</a>
+        <nav class="navbar">
+            <a href="index.html">Басты бет</a>
+            <a href="about.html">Біз туралы</a>
+            <a href="services.html">Қызметтер</a>
+            <a href="projects.html">Жобалар</a>
+            <a href="contact.html" class="active">Байланыс</a>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Бізбен байланысыңыз</h1>
+            <p>Сіздің жобаңызды талқылауға әрқашан дайынбыз</p>
+        </section>
+
+        <section class="contact-page">
+            <div class="contact-form-container">
+                <h2>Хабарлама қалдырыңыз</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Аты-жөніңіз</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                     <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                     <div class="form-group">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                     <div class="form-group">
+                        <label for="subject">Тақырып</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Хабарлама</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Жіберу</button>
+                    <div id="form-message"></div>
+                </form>
+            </div>
+            <div class="contact-info-container">
+                <h2>Байланыс ақпараты</h2>
+                <div class="contact-info-item">
+                    <h3>Кеңсе</h3>
+                    <p>Алматы қ., Абай к-сі, 123, 4-қабат</p>
+                </div>
+                 <div class="contact-info-item">
+                    <h3>Телефон</h3>
+                    <p>+7 (777) 123-45-67</p>
+                    <p>+7 (727) 321-45-67</p>
+                </div>
+                 <div class="contact-info-item">
+                    <h3>Email</h3>
+                    <p>info@qurylysmaster.kz</p>
+                    <p>sales@qurylysmaster.kz</p>
+                </div>
+                 <div class="contact-info-item">
+                    <h3>Жұмыс уақыты</h3>
+                    <p>Дс-Жм: 9:00 - 18:00</p>
+                    <p>Сб: 10:00 - 15:00</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="map">
+            <h2>Біздің орналасқан жеріміз</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.816342137158!2d76.9082486153784!3d43.25530287913686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883692f027581ad%3A0x2426de121248e894!2z0LDRgNC10LzRjyDRgNC10YjQtdC90LA!5e0!3m2!1sru!2skz!4v1678886071595!5m2!1sru!2skz" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+         <div class="footer-container">
+            <div class="footer-about">
+                <h3>QurylysMaster</h3>
+                <p>Сапалы құрылыстың кепілі. Бізбен бірге арманыңызды жүзеге асырыңыз.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Жылдам сілтемелер</h3>
+                <ul>
+                    <li><a href="index.html">Басты бет</a></li>
+                    <li><a href="about.html">Біз туралы</a></li>
+                    <li><a href="services.html">Қызметтер</a></li>
+                    <li><a href="projects.html">Жобалар</a></li>
+                    <li><a href="contact.html">Байланыс</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Байланыс</h3>
+                <p>Email: info@qurylysmaster.kz</p>
+                <p>Телефон: +7 (777) 123-45-67</p>
+                <p>Мекен-жайы: Алматы қ., Абай к-сі, 123</p>
+            </div>
+            <div class="footer-social">
+                <h3>Әлеуметтік желілер</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Telegram</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 QurylysMaster. Барлық құқықтар қорғалған.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
